@@ -1,12 +1,10 @@
 import time
 
-def is_button_a_pressed():
-	print('checking if A button is pressed')
-	return False
+def get_button_a_presses():
+    return True
 
-def is_button_b_press():
-	print('checking if B button is pressed')
-	return True
+def get_button_b_presses():
+    return True
 
 def show_image(pixels):
 	print('showing' + pixels)
